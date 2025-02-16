@@ -1,11 +1,15 @@
 body {
   background-color: #232830;
 }
-
+a {
+  text-decoration: none;
+  color: #909090;
+}
 .container {
   width: 950px;
-  margin: 30px auto;
-  height: 1500px;
+  margin: 25px auto;
+  height: 2000px;
+  border: 1px solid white;
 }
 
 .header {
@@ -19,11 +23,10 @@ body {
 
 .header .home h1 {
   font: 20px "poppins";
-  padding-left: 10px;
+  padding-left: 29px;
 }
 
 .header .home h1 a {
-  text-decoration: none;
   color: white;
 }
 
@@ -33,7 +36,7 @@ body {
 
 .nav-bar {
   position: absolute;
-  right: 10px;
+  right: 30px;
 }
 .nav-bar ul li {
   display: inline;
@@ -44,7 +47,6 @@ body {
   font: 14px "poppins";
   margin-left: 20px;
   color: white;
-  text-decoration: none;
 }
 
 .nav-bar ul li a:hover {
@@ -52,7 +54,7 @@ body {
 }
 
 .logo {
-  margin: 50px auto 20px;
+  margin: 35px auto 20px;
   height: 165px;
   width: 155px;
   background-image: url(images/Logo.png);
@@ -67,17 +69,18 @@ body {
 
 .logo-desc h2 {
   margin-top: 0;
-  font: italic 50px arial;
+  font: italic 60px arial;
   color: #ff7575;
   margin-bottom: 15px;
 }
 
 .logo-desc p {
-  font: 18px "poppins";
+  font: 22px "poppins";
   color: white;
 }
 
 .categ-list {
+  padding-left: 10px;
   border-top: 2px solid rgba(144, 144, 144, 0.1);
   position: relative;
   text-align: center;
@@ -89,12 +92,12 @@ body {
 .categ-list ul li {
   display: inline;
   margin-left: 13px;
-  margin-right: 13px;
+  margin-right: 12px;
   color: #909090;
   font: italic 16px poppins;
 }
 .categ-list .first-list {
-  margin-left: 50px;
+  margin-left: 70px;
 }
 
 .gradient-text {
@@ -110,33 +113,73 @@ body {
 
 .categ-list .grid {
   position: absolute;
-  left: 35px;
+  left: 50px;
   margin-left: 12px;
 }
 
 .categ-list .list {
   position: absolute;
-  left: 0;
+  left: 14px;
   top: 15px;
 }
 .content {
-  margin-top: 25px;
-  text-align: center;
+  margin: 25px auto;
+  padding-left: 11px;
 }
 .content .kotak {
   width: 270px;
-  height: 330px;
+  height: 360px;
   margin: 18px;
-  background-color: red;
-  display: inline-block;
+  background-color: white;
   border-radius: 15px;
+  display: inline-block;
   padding: 20px;
   box-sizing: border-box;
   position: relative;
+  vertical-align: middle;
 }
-.content .kotak img {
-  margin: auto;
-  width: 230px;
+.kotak img {
+  width: 100%;
   border-radius: 15px;
+}
+.kotak h3 {
+  font: Bold 14px "poppins";
+}
+.kotak p {
+  font: 12px "poppins";
+}
+
+span {
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+.pagination {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.pagination ul {
+  padding-left: 0;
+}
+
+.pagination ul li {
+  padding: 3px;
+  margin: 10px;
+  font: italic 20px "recursive";
+  display: inline;
+}
+
+.pagination ul li:nth-child(3) a {
+  color: #ff7575;
+  border-top: 2px solid #ff7575;
+}
+
+.footer {
+  margin-top: 100px;
+}
+.footer h4 {
   display: inline-block;
+  font: 15px "poppins";
+  padding-left: 10px;
+  color: white;
 }
