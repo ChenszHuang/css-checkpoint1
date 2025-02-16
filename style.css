@@ -124,10 +124,19 @@ body {
   text-align: center;
 }
 .content .kotak {
-  width: 260px;
-  height: 280px;
-  margin: 25px;
+  width: 270px;
+  height: 330px;
+  margin: 18px;
   background-color: red;
   display: inline-block;
   border-radius: 15px;
+  padding: 20px;
+  box-sizing: border-box;
+  position: relative;
+}
+.content .kotak img {
+  margin: auto;
+  width: 230px;
+  border-radius: 15px;
+  display: inline-block;
 }
