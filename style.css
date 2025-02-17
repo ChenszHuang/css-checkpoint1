@@ -218,7 +218,7 @@ span {
   line-height: 40px;
   margin-top: 5px;
   vertical-align: top;
-  font: bold 14px "poppins";
+  font: 14px "poppins";
 }
 
 .instagram {
@@ -231,7 +231,7 @@ span {
   color: whitesmoke;
   margin-top: 5px;
   background-color: rgb(253, 96, 227);
-  font: bold 15px "poppins";
+  font: 15px "poppins";
 }
 .instagram img {
   width: 25px;
