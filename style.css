@@ -146,6 +146,13 @@ a {
   position: relative;
   vertical-align: middle;
 }
+
+.kotak:hover {
+  margin-top: 5px;
+
+  transition: 0.3s;
+  box-shadow: 0px 15px 5px -10px;
+}
 .kotak img {
   width: 100%;
   border-radius: 15px;
@@ -218,7 +225,7 @@ span {
   width: 180px;
   position: relative;
   float: right;
-  margin-right: 28px;
+  margin-right: 29px;
   border-radius: 5px;
   padding: 5px 0px 5px 35px;
   color: whitesmoke;
