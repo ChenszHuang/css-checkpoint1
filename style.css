@@ -6,14 +6,14 @@ a {
   color: #909090;
 }
 .container {
-  width: 950px;
+  width: 1100px;
   margin: 25px auto;
   height: 2000px;
-  border: 1px solid white;
 }
 
 .header {
   position: relative;
+  margin-bottom: 50px;
 }
 
 .header .home,
@@ -22,8 +22,8 @@ a {
 }
 
 .header .home h1 {
-  font: 20px "poppins";
-  padding-left: 29px;
+  font: 25px "poppins";
+  padding-left: 30px;
 }
 
 .header .home h1 a {
@@ -36,15 +36,15 @@ a {
 
 .nav-bar {
   position: absolute;
-  right: 30px;
+  right: 22px;
 }
 .nav-bar ul li {
   display: inline;
-  line-height: 28px;
+  line-height: 43px;
 }
 
 .nav-bar ul li a {
-  font: 14px "poppins";
+  font: 15px "poppins";
   margin-left: 20px;
   color: white;
 }
@@ -64,12 +64,12 @@ a {
 
 .logo-desc {
   text-align: center;
-  margin-bottom: 40px;
+  margin-bottom: 80px;
 }
 
 .logo-desc h2 {
   margin-top: 0;
-  font: italic 60px arial;
+  font: italic 70px arial;
   color: #ff7575;
   margin-bottom: 15px;
 }
@@ -78,12 +78,20 @@ a {
   font: 22px "poppins";
   color: white;
 }
-
+.hr-line {
+  margin-top: -5px;
+  left: 0;
+  position: absolute;
+  width: 100%;
+  border: none;
+  border-top: 2px solid rgba(144, 144, 144, 0.1);
+}
 .categ-list {
   padding-left: 10px;
-  border-top: 2px solid rgba(144, 144, 144, 0.1);
+  border: 1px solid transparent;
   position: relative;
   text-align: center;
+  margin-bottom: 50px;
 }
 
 .categ-list ul {
@@ -94,7 +102,7 @@ a {
   margin-left: 13px;
   margin-right: 12px;
   color: #909090;
-  font: italic 16px poppins;
+  font: italic 25px recursive;
 }
 .categ-list .first-list {
   margin-left: 70px;
@@ -127,9 +135,9 @@ a {
   padding-left: 11px;
 }
 .content .kotak {
-  width: 270px;
-  height: 360px;
-  margin: 18px;
+  width: 330px;
+  height: 380px;
+  margin: 13px;
   background-color: white;
   border-radius: 15px;
   display: inline-block;
@@ -147,6 +155,7 @@ a {
 }
 .kotak p {
   font: 12px "poppins";
+  padding-bottom: 5px;
 }
 
 span {
@@ -155,16 +164,18 @@ span {
 }
 .pagination {
   margin-top: 50px;
+  margin-bottom: 100px;
   text-align: center;
 }
 
 .pagination ul {
-  padding-left: 0;
+  padding-left: 0px;
+  margin-left: -8px;
 }
 
 .pagination ul li {
   padding: 3px;
-  margin: 10px;
+  margin: 10px 10px 100px 10px;
   font: italic 20px "recursive";
   display: inline;
 }
@@ -175,11 +186,51 @@ span {
 }
 
 .footer {
-  margin-top: 100px;
+  position: relative;
+  margin-top: 20px;
+  padding-left: 15px;
+  padding-top: 15px;
+  padding-bottom: 50px;
 }
 .footer h4 {
+  margin-top: 5px;
   display: inline-block;
-  font: 15px "poppins";
+  font: 20px "poppins";
   padding-left: 10px;
   color: white;
+}
+
+.creator {
+  height: 20px;
+  display: inline-block;
+  margin-left: 10px;
+  padding: 5px 10px;
+  background-color: rgb(253, 96, 227);
+  border-radius: 5px;
+  color: white;
+  line-height: 40px;
+  margin-top: 5px;
+  vertical-align: top;
+  font: bold 14px "poppins";
+}
+
+.instagram {
+  width: 180px;
+  position: relative;
+  float: right;
+  margin-right: 28px;
+  border-radius: 5px;
+  padding: 5px 0px 5px 35px;
+  color: whitesmoke;
+  margin-top: 5px;
+  background-color: rgb(253, 96, 227);
+  font: bold 15px "poppins";
+}
+.instagram img {
+  width: 25px;
+}
+.instagram .ig {
+  position: absolute;
+  left: -15px;
+  top: 4px;
 }
