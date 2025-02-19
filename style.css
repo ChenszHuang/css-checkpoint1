@@ -148,15 +148,19 @@ a {
 }
 
 .kotak:hover {
-  margin-top: 5px;
-
+  z-index: 1;
   transition: 0.3s;
+  transform: scale(1.1);
   box-shadow: 0px 15px 5px -10px;
 }
 .kotak img {
   width: 289px;
   height: 150px;
   border-radius: 15px;
+}
+
+.dua img {
+  filter: grayscale(80%);
 }
 .kotak h3 {
   font: Bold 14px "poppins";
