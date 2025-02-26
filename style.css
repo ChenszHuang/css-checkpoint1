@@ -8,7 +8,8 @@ a {
 .container {
   width: 1100px;
   margin: 25px auto;
-  height: 2000px;
+  height: 2000px; 
+  /*   jgn pakai height utk halaman, nanti kalau lebih dari height, elemennya tembus dari height kayak keliatan keluar gitu, boleh pakai min-height aja lalu bkin 100vh supaya sesuai tinggi viewport screen */
 }
 
 .header {
@@ -36,7 +37,7 @@ a {
 
 .nav-bar {
   position: absolute;
-  right: 22px;
+  right: 22px; 
 }
 .nav-bar ul li {
   display: inline;
@@ -154,9 +155,11 @@ a {
   box-shadow: 0px 15px 5px -10px;
 }
 .kotak img {
-  width: 289px;
+  width: 289px; 
   height: 150px;
   border-radius: 15px;
+  /*  img  bagusnya jgn define kedua width dan height, define salah 1 aja kalau imgnya beda size ketarik nanti  */
+  /*  biasa sih set width parentnya, lalu imgnya bkin width:100%, sama object-fit: cover */
 }
 
 .dua img {
@@ -169,6 +172,12 @@ a {
   font: 12px "poppins";
   padding-bottom: 5px;
 }
+
+/* yg font familynya sama mungkin bisa gabungin jadi
+.kotak h3, .kotak p {
+  font-family: "poppins", Helvetica, serif; // sini juga tambah fallback jadi kalau ga support poppins pnya browser bisa pakai fallback fontnya kayak serif atau sans-serif
+}
+*/
 
 span {
   margin-left: 20px;
@@ -192,6 +201,9 @@ span {
   display: inline;
 }
 
+/* yg panjang gini mungkin kasi class pisah sendiri 
+misal .pagination-active-link 
+*/
 .pagination ul li:nth-child(3) a {
   color: #ff7575;
   border-top: 2px solid #ff7575;
@@ -226,6 +238,7 @@ span {
   font: 14px "poppins";
 }
 
+/* yg instagram pnya bagian bagusnya pakai flexbox biar keliatan rapi, sama aturnya lebih gampang */
 .instagram {
   width: 121px;
   position: relative;
